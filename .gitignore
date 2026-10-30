@@ -1,0 +1,20 @@
+# Python environments
+.venv/
+venv/
+
+# Temporary Python files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded and intermediate data
+data/*.zip
+data/*.csv
+
+# Private configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Editor settings
+.vscode/
